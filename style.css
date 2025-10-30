@@ -10,6 +10,16 @@ body {
     margin-bottom: 10px;
 }
 
+#equipo li {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#equipo li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
 #pokedex {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
